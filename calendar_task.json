@@ -1,0 +1,29 @@
+{
+  "conversation": [
+    {
+      "role": "user",
+      "message": "Schedule a meeting with Sarah tomorrow at 3pm"
+    },
+    {
+      "role": "assistant",
+      "tool_call": {
+        "name": "create_event",
+        "arguments": {
+          "title": "Meeting with Sarah",
+          "date": "2026-03-19",
+          "time": "15:00"
+        }
+      }
+    },
+    {
+      "role": "tool",
+      "response": {
+        "event_id": "1001"
+      }
+    },
+    {
+      "role": "assistant",
+      "message": "Your meeting with Sarah has been scheduled for tomorrow at 3pm."
+    }
+  ]
+}
