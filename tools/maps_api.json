@@ -1,0 +1,7 @@
+{
+  "name": "find_location",
+  "parameters": {
+    "place": "string"
+  },
+  "description": "Returns information or directions for a given location."
+}
