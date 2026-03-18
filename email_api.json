@@ -1,9 +1,0 @@
-{
-  "name": "send_email",
-  "parameters": {
-    "to": "string",
-    "subject": "string",
-    "body": "string"
-  },
-  "description": "Sends an email to a recipient."
-}
