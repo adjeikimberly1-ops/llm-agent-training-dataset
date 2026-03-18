@@ -1,9 +1,0 @@
-{
-  "name": "create_event",
-  "parameters": {
-    "title": "string",
-    "date": "string",
-    "time": "string"
-  },
-  "description": "Creates a calendar event with title, date, and time."
-}
